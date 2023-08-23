@@ -6,6 +6,16 @@
   margin: 0;
 }
 
+::-moz-selection { /* Code for Firefox */
+  background: rgba(colors.color(highlight), 0.2);
+  color: colors.color(highlight);
+}
+
+::selection {
+  background: rgba(colors.color(highlight), 0.2);
+  color: colors.color(highlight);
+}
+
 html, body {
   max-width: 100vw;
   overflow-x: hidden;
@@ -24,7 +34,6 @@ img {
   -moz-user-drag: none !important;
   -webkit-user-drag: none !important;
   user-drag: none !important;
-
 }
 
 ul {

@@ -31,7 +31,7 @@ export default function Projects() {
                   <p className="project-description">{project.description}</p>
                 </div>
                 <div className="project-image-wrapper">
-                  <img className="project-image" src={project.image} />
+                  <img className="project-image" alt="project-image" src={project.image} />
                 </div>
               </div>
             )
