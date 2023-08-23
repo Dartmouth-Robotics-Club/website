@@ -4,6 +4,7 @@ import Image from 'next/image'
 export default function Header() {
   return (
     <header className="header">
+      <div className="header-inner">
       <div className="logo-container">
         <img src="/dart-logo.svg" alt="dart-logo" />
       </div>
@@ -27,6 +28,7 @@ export default function Header() {
             </li>
           </ul>
         </nav>
+      </div>
       </div>
     </header>
   )

@@ -30,7 +30,9 @@ export default function Projects() {
                   <h1 className="project-title">{project.name}</h1>
                   <p className="project-description">{project.description}</p>
                 </div>
-                <img className="project-image" src={project.image} />
+                <div className="project-image-wrapper">
+                  <img className="project-image" src={project.image} />
+                </div>
               </div>
             )
           }
