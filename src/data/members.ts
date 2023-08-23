@@ -15,7 +15,19 @@ const members =  [
     name: "Bansharee Ireen",
     link: "https://linkedin.com",
     role: "VP"
-  }
+  },
+  {
+    name: "Sonia Bendre",
+    link: "https://linkedin.com",
+  },
+  {
+    name: "Paige Nakai",
+    link: "https://linkedin.com",
+  },
+  {
+    name: "Amittai Siavava",
+    link: "https://linkedin.com",
+  },
 ] as Member[]
 
 export default members;
