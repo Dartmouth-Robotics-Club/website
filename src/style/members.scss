@@ -1,0 +1,43 @@
+@use "colors";
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  max-width: min(100vw, 1180px);
+  width: auto;
+  margin-top: 50px;
+  gap: 20px;
+  justify-items: left;
+  align-items: center;
+}
+
+.member-card {
+  width: 350px;
+  background: colors.color(light-background);
+  color: colors.color(title);
+  position: relative;
+  // padding: 50px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+
+  .member-image {
+    margin: 0 auto;
+    width: 70%;
+    aspect-ratio: 2/2.8;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .member-info {
+    border-top: 1px solid lighten(colors.color(light-background), 30%);
+    line-height: 1.5;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: left;
+
+    .member-role {
+      color: colors.color(foreground);
+    }
+  }
+}

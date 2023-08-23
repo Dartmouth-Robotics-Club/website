@@ -1,0 +1,21 @@
+
+$palette: (
+  highlight: #5658dd,
+  foreground: #9ca9b3,
+  title: #fff,
+  background: #000,
+  light-background: #1a1a1a,
+  secondary: #6c757d,
+  success: #28a745,
+  info: #17a2b8,
+  warning: #ffc107,
+  danger: #dc3545,
+  light: #f8f9fa,
+  dark: #343a40,
+  white: #fff,
+  black: #000
+);
+
+@function color($color) {
+  @return map-get($palette, $color);
+}
