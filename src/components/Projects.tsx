@@ -3,8 +3,8 @@ import "@/style/projects.scss"
 export default function Projects() {
   const projects = [
     {
-      name: "RoboCup Soccer",
-      description: "RoboCup is an international robotics competition founded in 1997. The aim of the competition is to promote robotics and AI research, by offering a publicly appealing, but formidable challenge. The name RoboCup is a contraction of the competition's full name, \"Robot Soccer World Cup\".",
+      name: "VEX University 2023/2024",
+      description: "The VEX U college and university competition has more than 300 teams competing annually. Based on the VEX Robotics Competition, VEX U teams are allowed more customization and greater flexibility than other grade levels while providing the effective costs and real-world limitations of a restricted development environment.",
       image: "/01.png"
     },
     {
@@ -18,8 +18,7 @@ export default function Projects() {
     <div className="section">
       <h1 id="projects" className="title">Projects</h1>
       <p className="paragraph">
-        RoboTeam tends to compete in a new competition every 1-2 years.
-        These are some of the competitions we have worked towards in the past.
+        DSRT focuses on product design and Vex U competition projects
       </p>
       <div className="projects-grid">
         {

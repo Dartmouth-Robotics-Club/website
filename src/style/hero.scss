@@ -1,4 +1,30 @@
 @use "colors";
 @use "globals";
 
+.highlight {
+    color: rgb(19, 120, 70); /* Change 'red' to the color you want */
+  }
 
+
+/* Animation for the title */
+.title {
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  /* Animation for the subtitle */
+  .sub-title {
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  /* Keyframes for the fade-in animation */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
