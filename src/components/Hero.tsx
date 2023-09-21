@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
-import "@/style/hero.scss"
+import "@/style/hero.scss";
+import Typewriter from 'typewriter-effect';
+
 export default function Hero() {
   return (
     <div className="section">

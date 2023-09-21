@@ -8,7 +8,7 @@ export default function Projects() {
       image: "/01.png"
     },
     {
-      name: "RoboCup Rescue",
+      name: "Product Design",
       description: "RoboCup is an international robotics competition founded in 1997. The aim of the competition is to promote robotics and AI research, by offering a publicly appealing, but formidable challenge. The name RoboCup is a contraction of the competition's full name, \"Robot Soccer World Cup\".",
       image: "/02.png"
     }

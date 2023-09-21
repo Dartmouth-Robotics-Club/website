@@ -20,14 +20,26 @@ const members =  [
     role: "VP"
   },
   {
+    name: "Mateo Perez",
+    image: "https://media.licdn.com/dms/image/D4E03AQH25htwc9iBzQ/profile-displayphoto-shrink_800_800/0/1673549016950?e=1700697600&v=beta&t=f0b1OXcljZMNrxoGnmomgOzMu4YhhYo4xjSX1pwCyLc",
+    link: "https://www.linkedin.com/in/mateo-perez-029b11261/",
+    role: "Treasure"
+  },
+  {
     name: "Sonia Bendre",
     image: "https://media.licdn.com/dms/image/D4E03AQHdxlCiOnYsLA/profile-displayphoto-shrink_800_800/0/1676464840622?e=1700697600&v=beta&t=V8N7XvIfBmokllq0lXiKQnM7LqQjVbKQ30_6RQe8xTg",
     link: "https://www.linkedin.com/in/soniabendre/",
     role: "Co-Founder & Media Outreach Lead"
   },
   {
+    name: "FT Chiu",
+    image: "https://media.licdn.com/dms/image/D4E03AQFqnCBK-BwAlg/profile-displayphoto-shrink_800_800/0/1690078385170?e=1700697600&v=beta&t=odOsUoO6TLebcUx_Y4dfEyvYB4hY34h64WPP6qaSObc",
+    link: "https://www.linkedin.com/in/ft-chiu/?originalSubdomain=hk",
+    role: "Development Lead"
+  },
+  {
     name: "Paige Nakai",
-    image:"/../public/paige.png",
+    image:"/paige.png",
     link: "https://linkedin.com",
     role: "Media Outreach"
   },
@@ -38,17 +50,11 @@ const members =  [
     role: "Media Outreach"
   },
   {
-    name: "FT Anwar",
-    image: "https://media.licdn.com/dms/image/D4E03AQFqnCBK-BwAlg/profile-displayphoto-shrink_800_800/0/1690078385170?e=1700697600&v=beta&t=odOsUoO6TLebcUx_Y4dfEyvYB4hY34h64WPP6qaSObc",
-    link: "https://www.linkedin.com/in/ft-chiu/?originalSubdomain=hk",
-    role: "Media Outreach"
-  },
-  {
     name: "Mia Anwar",
     image: "https://media.licdn.com/dms/image/D4E03AQEUHufpn52jpA/profile-displayphoto-shrink_800_800/0/1685050778800?e=1700697600&v=beta&t=5rNW7W_Zz8T710byqhW07tox6yGKwIIsy0794IXm26I",
     link: "https://www.linkedin.com/in/reshmi-anwar/",
     role: "Media Outreach"
-  },
+  }
 
 ] as Member[]
 
