@@ -1,6 +1,7 @@
 export interface Member {
   name: string;
-  role?: string;
+  roles?: Array<string>;
+  categories?: Array<string>;
   link?: string;
   image?: string;
 }

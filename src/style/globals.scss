@@ -12,7 +12,7 @@
 }
 
 ::selection {
-  background: rgba(colors.color(highlight), 0.2);
+  background: colors.color(light-background);
   color: colors.color(highlight);
 }
 
@@ -119,10 +119,18 @@ main {
 .header {
   width: 100svw;
   display: flex;
-  padding: 40px;
   position: fixed;
   top: 0;
   background: rgba(colors.color(background), 0.8);
+  z-index: 9;
+  
+  height: 100px;
+  padding: 40px;
+
+  @media only screen and (max-width: 768px) {
+    height: 70px;
+    padding: 30px;
+  }
   
   .header-inner {
     display: inline-flex;
@@ -130,8 +138,6 @@ main {
 
     margin: 0 auto;
     width: min(100%, 1200px);
-
-
   }
   
   .logo-container {

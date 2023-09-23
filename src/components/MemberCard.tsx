@@ -3,8 +3,8 @@ import "@/style/members.scss"
 import { Member } from "@/types/member";
 
 
-export default function MemberCard(props: any) {
-  const { member } = props
+export default function MemberCard(props: { member: Member }) {
+  const { member } = props;
   return (
     <div className="member-card">
       <div className="member-image">
@@ -19,7 +19,12 @@ export default function MemberCard(props: any) {
       <div className="member-info">
           <a href={member.link}>
             <h3 className="member-name">{member.name || "Anonymous"}</h3>
-            { member.role && <p className="member-role">{member.role}</p> }
+            { member.roles && 
+              <div className="member-roles">
+                { member.roles.map((role: string) => {
+                  return <div key={role} className="member-role">{role}</div>
+                })}
+              </div> }
           </a>
       </div>
     </div>
