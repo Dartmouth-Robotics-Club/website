@@ -5,7 +5,11 @@
   flex-direction: row;
   gap: 20px;
   padding: 10px 20px;
-  //border: 3px solid colors.color(light-background);
+  max-width: 100%;
+  overflow-x: scroll;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 
   .filter-button {
     background: transparent;
@@ -16,15 +20,27 @@
     padding: 10px 20px;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
+    border: 1px solid colors.color(light-background);
     border-bottom: 2px solid transparent;
+
+    // do not wrap text
+    white-space: nowrap;
 
     &:hover {
       background: colors.color(light-background);
     }
 
     &.active {
-      // background: colors.color(light-background);
       border-bottom: 2px solid colors.color(highlight);
+    }
+
+  }
+  @media screen and (max-width: 768px) {
+    gap: 5px;
+
+    .filter-button {
+      font-size: 1rem;
+      padding: 5px 10px;
     }
   }
 }

@@ -124,12 +124,14 @@ main {
   background: rgba(colors.color(background), 0.8);
   z-index: 9;
   
+  // padding: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4vw;
+  
   height: 100px;
-  padding: 40px;
-
   @media only screen and (max-width: 768px) {
     height: 70px;
-    padding: 30px;
   }
   
   .header-inner {
@@ -138,30 +140,42 @@ main {
 
     margin: 0 auto;
     width: min(100%, 1200px);
+    align-items: center;
   }
   
   .logo-container {
     position: relative;
     width: 200px;
     height: fit-content;
-
-    @media(max-width: 768px) {
-      display: none;
-    }
+    max-height: 40%;
 
     img {
       max-width: 100%;
+      max-height: 100%;
+      padding: 20px
     }
   }
 
   .nav-list {
     display: inline-flex;
     gap: 4rem;
+
+    @media screen and (max-width: 768px) {
+      gap: 2rem;
+    }
   }
 }
 
 .footer {
   width: min(100%, 1200px);
-  padding: 30px;
-  border-top: 1px solid colors.color(light-background)
+  border-top: 1px solid colors.color(light-background);
+
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 min(2vw, 25px);
+  @media only screen and (max-width: 1080px) {
+    height: 70px;
+  }
 }
