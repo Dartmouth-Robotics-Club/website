@@ -1,12 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import "@/style/hero.scss";
-import Typewriter from 'typewriter-effect';
+// import Typewriter from 'typewriter-effect';
 
 export default function Hero() {
   return (
-    <div className="section">
+    <div className="section hero">
       <h1 className="title">
-      <span className="highlight"> DSRT </span>
+        <span className="highlight"> DSRT </span>
       </h1>
       <h2 className="sub-title">THE DARTMOUTH STUDENTS ROBOTICS TEAM</h2>
       <p className="paragraph">

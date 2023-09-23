@@ -19,6 +19,7 @@
 html, body {
   max-width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -30,10 +31,8 @@ img {
   -moz-user-select: none !important;
   -webkit-user-select: none !important;
   user-select: none !important;
-  
   -moz-user-drag: none !important;
   -webkit-user-drag: none !important;
-  user-drag: none !important;
 }
 
 ul {
@@ -73,9 +72,14 @@ main {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  width: 100vw;
+  width: min(100%, 1200px);
+  // background: red;
   padding: 50px;
   padding-bottom: 80px;
+
+  &:first-of-type {
+    padding-top: 150px;
+  }
 
   &:not(:last-of-type) {
     border-bottom: 1px solid colors.color(light-background);
@@ -110,6 +114,9 @@ main {
   width: 100svw;
   display: flex;
   padding: 40px;
+  position: fixed;
+  top: 0;
+  background: rgba(colors.color(background), 0.8);
   
   .header-inner {
     display: inline-flex;
@@ -144,4 +151,5 @@ main {
 .footer {
   width: min(100%, 1200px);
   padding: 30px;
+  border-top: 1px solid colors.color(light-background)
 }

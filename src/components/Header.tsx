@@ -1,5 +1,3 @@
-import { useRouter } from 'next/navigation'
-import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Header() {
@@ -13,7 +11,7 @@ export default function Header() {
         <nav className="nav">
           <ul className="nav-list">
             <li className="nav-item">
-              <Link href="#" className="nav-link">
+              <Link href="/" className="nav-link">
                 Home
               </Link>
             </li>
