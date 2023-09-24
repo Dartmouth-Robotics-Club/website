@@ -3,7 +3,7 @@ import "@/style/projects.scss"
 export default function Projects() {
   const projects = [
     {
-      name: "VEX University 2023/2024",
+      name: "VEX U 2023/2024",
       description: "The VEX U college and university competition has more than 300 teams competing annually. Based on the VEX Robotics Competition, VEX U teams are allowed more customization and greater flexibility than other grade levels while providing the effective costs and real-world limitations of a restricted development environment.",
       image: "/01.png"
     },
