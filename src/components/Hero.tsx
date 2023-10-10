@@ -8,6 +8,7 @@ export default function Hero() {
   return (
     <div className="section hero">
       <h1 className="title">
+      <div className="text-3d">
         <span className="highlight"> <Typewriter 
         options={{
           strings: [
@@ -25,8 +26,11 @@ export default function Hero() {
           autoStart: true,
           loop: true,
         }}
-      /> </span>
+      /> 
+      </span>
+      </div>
       </h1>
+      
       <h2 className="sub-title">THE DARTMOUTH STUDENTS ROBOTICS TEAM</h2>
       
       <p className="paragraph">
