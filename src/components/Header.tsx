@@ -25,6 +25,11 @@ export default function Header() {
                 Members
               </Link>
             </li>
+            <li> 
+            <Link href="" rel="noopener noreferrer" target="_blank">
+            JOIN US
+          </Link>
+            </li>
           </ul>
         </nav>
       </div>

@@ -9,7 +9,7 @@ export default function Projects() {
     },
     {
       name: "Product Design",
-      description: "RoboCup is an international robotics competition founded in 1997. The aim of the competition is to promote robotics and AI research, by offering a publicly appealing, but formidable challenge. The name RoboCup is a contraction of the competition's full name, \"Robot Soccer World Cup\".",
+      description: "The next project centers around a mobility robot in the delivery sector. This advanced robot will integrate Machine Learning capabilities with external systems such as GPS, enabling it to navigate the intricate terrain of the real world, with a mission of ensuring swift deliveries. Ahead of this project, we have tried to garner experience from building a 3-D printed spider robot that uses a lot similar technology.",
       image: "/02.png"
     }
   ];

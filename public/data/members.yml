@@ -58,10 +58,11 @@ members:
 
   - name: Karun Ram
     image: https://media.licdn.com/dms/image/C5603AQFTsB0myMEF6w/profile-displayphoto-shrink_800_800/0/1649441777584?e=2147483647&v=beta&t=BF0f1LZQxS2nnm2NvrJh3PFNRQbHWHBlztZmKItHLgI
-    link: https://www.linkedin.com/in/reshmi-anwar/
+    link: https://kamiv2.github.io
     roles:
       - Development Lead
     categories:
+      - leadership
       - product design
 
   - name: FT Chiu
@@ -82,14 +83,13 @@ members:
       - product design
 
   - name: Amittai Siavava
-    image: https://media.licdn.com/dms/image/D4E03AQEgcXZilTRPgQ/profile-displayphoto-shrink_800_800/0/1676326395632?e=1700697600&v=beta&t=yt_wXXdHnpiG9YWi2acNhhdWI83swWc-prklLSN_Alg
+    image: https://media.licdn.com/dms/image/D4E03AQGbpGNpU0aHmA/profile-displayphoto-shrink_800_800/0/1695901129656?e=1702512000&v=beta&t=I0Eb3BQQXp7mm9_gT1un7gS9RNIoSntJQRdeqnsULac
     link: https://www.linkedin.com/in/siavava/
     roles:
       - Media Outreach
     categories:
       - product design
-    
-
+  
   - name: Mia Anwar
     image: https://media.licdn.com/dms/image/D4E03AQEUHufpn52jpA/profile-displayphoto-shrink_800_800/0/1685050778800?e=1700697600&v=beta&t=5rNW7W_Zz8T710byqhW07tox6yGKwIIsy0794IXm26I
     link: https://www.linkedin.com/in/reshmi-anwar/
@@ -97,3 +97,87 @@ members:
       - Media Outreach
     categories:
       - competitive
+
+  - name: Brian Chiang
+    image: https://media.licdn.com/dms/image/C4D03AQFBA2kY7OafrQ/profile-displayphoto-shrink_800_800/0/1639014753822?e=1702512000&v=beta&t=agrrkYAYS9qAyX6nzunnJcce7G_lNDNVP946_7FABp8
+    link: https://www.linkedin.com/in/brianchiang8/
+    roles:
+      - Competitive Lead
+    categories:
+      - leadership
+      - competitive
+
+  - name: Atharv Agashe
+    image: https://media.licdn.com/dms/image/C5603AQGl182j-7k1zA/profile-displayphoto-shrink_800_800/0/1655338900380?e=1702512000&v=beta&t=XNNjEaJd3QE3KhxriV6wGrxA-sWdKShVHCbRy7SCwfs
+    link: https://www.linkedin.com/in/atharv-agashe/
+    roles:
+      - Social Chair
+    categories:
+      - competitive
+
+  - name: Aneesh Patnaik
+    image: https://media.licdn.com/dms/image/D4E03AQEkkzjBq7enXw/profile-displayphoto-shrink_800_800/0/1678392928677?e=1702512000&v=beta&t=bhF-rjgvZjCTiVpuylF-qCeIzAZyG-TWkDo2zFoYwDs
+    link: https://www.linkedin.com/in/aneesh-patnaik/
+    roles:
+      - Member
+    categories:
+      - competitive
+    
+  - name: Ashton Morgan
+    image: 
+    link: 
+    roles:
+      - Member
+    categories:
+      - competitive
+    
+  - name: Destin Niyomufasha
+    image: https://media.licdn.com/dms/image/D4E03AQFJswr-nFhMXg/profile-displayphoto-shrink_800_800/0/1665608358260?e=1702512000&v=beta&t=VB9fC_DInYOIdmUdkMafEW6Q7CKNI89S0m4wBAHdWZs
+    link: https://www.linkedin.com/in/niyomufasha-destin-452695226/
+    roles:
+      - Member
+    categories:
+      - competitive
+    
+  - name: Dilhan Flores
+    image: 
+    link: 
+    roles:
+      - Member
+    categories:
+      - competitive
+    
+  - name: Eva Weiland
+    image: https://media.licdn.com/dms/image/D4D03AQG-ydgPejUD3A/profile-displayphoto-shrink_800_800/0/1675025102792?e=1702512000&v=beta&t=8LFpcryZiIecGDRc1Rlpmjp1RHrtldhR8tK_TK5lhDE
+    link: https://www.linkedin.com/in/eva-weiland-8bb286264/
+    roles:
+      - Member
+    categories:
+      - competitive
+    
+  - name: Eliana Stanford
+    image: https://media.licdn.com/dms/image/C4D03AQGdA-BLtnYycA/profile-displayphoto-shrink_800_800/0/1601005425956?e=1702512000&v=beta&t=yQcPR1z0G38gFTe4pv6qQjvySUqx2D3jkd6IOKo7joU
+    link: https://www.linkedin.com/in/eliana-stanford-6144071b2/
+    roles:
+      - Member
+    categories:
+      - competitive
+
+  - name: Isaac Cheon
+    image: 
+    link: 
+    roles:
+      - Member
+    categories:
+      - competitive
+
+  - name: Kai Etheridge
+    image: https://media.licdn.com/dms/image/C5603AQFhFpMHapuUeg/profile-displayphoto-shrink_800_800/0/1655515195634?e=1702512000&v=beta&t=nfCARR1IQekynwTZc706mykHbedesP0wotlhcGKkmQg
+    link: https://www.linkedin.com/in/kai-etheridge/
+    roles:
+      - Member
+    categories:
+      - competitive
+
+
+
