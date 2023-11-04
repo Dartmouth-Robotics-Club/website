@@ -35,6 +35,7 @@ members:
     link: https://www.linkedin.com/in/bansharee-ireen-184712274/
     roles:
       - VP
+      - Robotics Lead
     categories:
       - product design
 
@@ -60,7 +61,7 @@ members:
     image: https://media.licdn.com/dms/image/C5603AQFTsB0myMEF6w/profile-displayphoto-shrink_800_800/0/1649441777584?e=2147483647&v=beta&t=BF0f1LZQxS2nnm2NvrJh3PFNRQbHWHBlztZmKItHLgI
     link: https://kamiv2.github.io
     roles:
-      - Development Lead
+      - Mechanical Lead
     categories:
       - leadership
       - product design
@@ -74,6 +75,14 @@ members:
       - leadership
       - product design
 
+  - name: Amittai Siavava
+    image: https://media.licdn.com/dms/image/D4E03AQGbpGNpU0aHmA/profile-displayphoto-shrink_800_800/0/1695901129656?e=1702512000&v=beta&t=I0Eb3BQQXp7mm9_gT1un7gS9RNIoSntJQRdeqnsULac
+    link: https://www.linkedin.com/in/siavava/
+    roles:
+      - AI Lead
+    categories:
+      - product design
+
   - name: Paige Nakai
     image: /paige.png
     link: https://linkedin.com
@@ -82,13 +91,7 @@ members:
     categories:
       - product design
 
-  - name: Amittai Siavava
-    image: https://media.licdn.com/dms/image/D4E03AQGbpGNpU0aHmA/profile-displayphoto-shrink_800_800/0/1695901129656?e=1702512000&v=beta&t=I0Eb3BQQXp7mm9_gT1un7gS9RNIoSntJQRdeqnsULac
-    link: https://www.linkedin.com/in/siavava/
-    roles:
-      - Media Outreach
-    categories:
-      - product design
+
   
   - name: Mia Anwar
     image: https://media.licdn.com/dms/image/D4E03AQEUHufpn52jpA/profile-displayphoto-shrink_800_800/0/1685050778800?e=1700697600&v=beta&t=5rNW7W_Zz8T710byqhW07tox6yGKwIIsy0794IXm26I
