@@ -26,7 +26,7 @@ export default function Header() {
               </Link>
             </li>
             <li> 
-            <Link href="" rel="noopener noreferrer" target="_blank">
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeGg0QqYfNoMnk2YYHZl89VwUNGIAWJwP6BmNTxWHyxKHyowQ/closedform" rel="noopener noreferrer" target="_blank">
             JOIN US
           </Link>
             </li>
