@@ -25,7 +25,12 @@ export default function Header() {
                 Members
               </Link>
             </li>
-            <li> 
+            <li className="nav-item">
+              <Link href="https://docs.google.com/document/d/17siaQBqu0Gn88x--ALFaozKqcxzt7qhjTycw0sSnA6A/edit?usp=sharing" className="nav-link">
+                Onboarding
+              </Link>
+            </li>
+            <li className="join-button"> 
             <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeGg0QqYfNoMnk2YYHZl89VwUNGIAWJwP6BmNTxWHyxKHyowQ/closedform" rel="noopener noreferrer" target="_blank">
             JOIN US
           </Link>
